@@ -1,0 +1,7 @@
+<h1>Message From The Users</h1>
+
+<ul>
+    {% for post in object_list %}
+    <li>{{ post.message }}</li>
+    {% endfor %}
+</ul>
